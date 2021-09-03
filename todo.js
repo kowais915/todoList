@@ -6,11 +6,13 @@ const list = document.querySelector('ul');
 
 
 
-
-but2.addEventListener('click', ()=>{
-    bod.setAttribute('style', 'background-color: pink;')
+but1.addEventListener('click', ()=>{
+    // bod.setAttribute('style', 'background-color: green;');
+    const inp = prompt("Enter: ");
+    list.innerHTML += `<p>${inp}</p>`;
     
     })
+
 
     
 para.forEach((item)=>{
@@ -18,9 +20,3 @@ para.forEach((item)=>{
        item.style.textDecoration = "line-through";
     })
 })
-but1.addEventListener('click', ()=>{
-    // bod.setAttribute('style', 'background-color: green;');
-    const inp = prompt("Enter: ");
-    list.innerHTML += `<p>${inp}</p>`;
-    
-    })
