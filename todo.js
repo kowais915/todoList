@@ -5,7 +5,8 @@ const para = document.querySelectorAll('p');
 
 
 but1.addEventListener('click', ()=>{
-bod.setAttribute('style', 'background-color: green;')
+bod.setAttribute('style', 'background-color: green;');
+
 
 })
 
@@ -17,6 +18,6 @@ but2.addEventListener('click', ()=>{
     
 para.forEach((item)=>{
     item.addEventListener('click', ()=>{
-       item.innerHTML = '';
+       item.style.textDecoration = "line-through";
     })
 })
