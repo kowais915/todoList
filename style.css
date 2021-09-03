@@ -1,0 +1,17 @@
+
+body{
+    background-color: pink;
+}
+
+h2{
+    text-align: center;
+}
+p {
+margin: 5px 5px;
+background-color: gray;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
